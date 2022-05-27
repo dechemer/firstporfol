@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* 모바일 푸터 */
+#footer .pc{
+    display:none;
+}
+
+#footer{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #2E3893;
+    padding-left: 10px;
+}
+#footer:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 255px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+#f_in{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.co_menu{
+    margin-bottom: 60px;
+}
+.co_menu_in{
+    display: flex;
+}
+.co_menu .d1{
+    margin-right: 50px;
+}
+.co_menu .d1 .m1{
+    display: block;
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 16px;
+}
+.co_menu .d1 ul li{
+    margin-bottom: 3px;
+}
+.co_menu .d1 ul li a{
+    color: #fff;
+    opacity: 0.8;
+}
+
+.f_lang{
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.f_lang ul{
+    display: flex;
+}
+.f_lang li{
+    margin-right: 16px;
+}
+.f_lang li a{
+    color: rgba(255,255,255,0.7);
+}
+.f_lang .on a{
+    color: #1edcac;
+}
+.f_sns{
+    width: 132px;
+    height: 30px;
+    background-image: url(../image/ico_social_package.png);
+}
+.f_sns ul{
+    display: flex;
+    justify-content: space-between;
+}
+.f_sns li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -99999px;
+}
+.f_menu{
+    margin-bottom: 20px;
+}
+.f_menu ul{
+    display: flex;
+}
+.f_menu li a{
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+}
+.f_menu li:after{
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 1px;
+    height: 11px;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.4);
+}
+.f_menu li:last-child:after{
+    display: none;
+}
+.f_info{
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+}
+.copyright{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+}
+.f_mark ul{
+    display: flex;
+}
+.f_mark li{
+    margin-right: 20px;
+}
+.f_mark li:last-child{
+    margin-right: 0;
+}
+.f_mark li a{
+    display: block;
+    color: rgba(255,255,255,0.5);
+    line-height: 44px;
+    letter-spacing: -0.5px;
+}
+.f_mark .fm a:before{
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 29px;
+    margin-top: 8px;
+    margin-right: 4px;
+    background-image: url(../img/footer_award.png);
+}
+.f_mark .fm2 a:before{
+    background-position: -34px 0;
+}
+.f_mark .fm3 a:before{
+    background-position: -67px 0;
+}
+.f_mark .fm4 a:before{
+    background-position: -100px 0;
+}
+.f_mark .fm5 a:before{
+    background-position: -133px 0;
+}
+.f_mark .fm6 a:before{
+    background-position: -167px 0;
+}
+
+@media screen and (min-width:1280px){
+	/* 푸터 */
+    #footer .pc{
+        display:block;
+    }
+    #f_in{
+        width: 1280px;
+    }
+    
+    .f_family{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .f_family .btn{
+        display: block;
+        width: 156px;
+        padding-left: 14px;
+        background-color: #434a52;
+        color: rgba(255,255,255,0.8);
+        line-height: 32px;
+    }
+    .f_family .btn:after{
+        content: "";
+        display: inline-block;
+        vertical-align: top;
+        width: 7px;
+        height: 4px;
+        margin-top: 15px;
+        margin-left: 60px;
+        background-image: url(../image/arr_familysite.png);
+        background-position: 0 -5px;
+    }
+    .f_family:hover .btn:after{
+        background-position: 0 0;
+    }
+    .f_family_list{
+        display: none;
+    }
+    .f_family:hover .f_family_list{
+        display: block;
+    }
+    .f_family_list ul{
+        padding-top: 10px;
+        padding-bottom: 4px;
+        padding-left: 14px;
+        padding-right: 14px;
+        background-color: #2f353c;
+    }
+    .f_family_list li{
+        margin-bottom: 8px;
+    }
+    .f_family_list li a{
+        color: rgba(255,255,255,0.6);
+    }
+    .f_family_list li a:hover{
+        text-decoration: underline;
+    }
+    .f_utill{
+        position: absolute;
+        right: 0;
+        top: 144px;
+        display: flex;
+    }
+}

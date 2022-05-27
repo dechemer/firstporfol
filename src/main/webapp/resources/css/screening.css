@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+
+/* PC화면 */
+
+@media screen and (min-width:1280px){
+
+    /* 본문1 */
+
+    .rowIn{
+        width:1280px;
+        margin:0 auto;
+    
+    }
+
+    .title ul{
+        display:flex;
+        margin-bottom: 20px;
+    }
+
+    .title li{
+        margin-right: 15px;
+    }
+
+    .title a{
+        color:#222;
+        font-size: 22px;   
+    }
+
+    .present ul{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .present li:nth-child(5n){
+        margin-right:0;
+    }
+
+    .present li{
+        width: 240px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    
+
+    .present img{
+        width:100%
+    }
+
+}   
