@@ -549,23 +549,35 @@
                                     <td class="re"></td>
                                 </tr>
                                 <tr>
-                                    <td class="star">☆☆☆☆☆</td>
-                                    <td class="nic"></td>
+                                    <td class="star">
+                                        <span>☆☆☆☆☆</span>
+                                        <span>영화좋아</span>
+                                        <span>샘형 진정해...형 영화 잘 만들었으니깐 쉬어,근데 닥스3 대본은?</span>
+                                    </td>
                                     <td class="re"></td>
                                 </tr>
                                 <tr>
-                                    <td class="star">☆☆☆☆☆</td>
-                                    <td class="nic"></td>
+                                    <td class="star">
+                                        <span>☆☆☆☆☆</span>
+                                        <span>영화좋아</span>
+                                        <span>샘형 진정해...형 영화 잘 만들었으니깐 쉬어,근데 닥스3 대본은?</span>
+                                    </td>
                                     <td class="re"></td>
                                 </tr>
                                 <tr>
-                                    <td class="star">☆☆☆☆☆</td>
-                                    <td class="nic"></td>
+                                    <td class="star">
+                                        <span>☆☆☆☆☆</span>
+                                        <span>영화좋아</span>
+                                        <span>샘형 진정해...형 영화 잘 만들었으니깐 쉬어,근데 닥스3 대본은?</span>
+                                    </td>
                                     <td class="re"></td>
                                 </tr>
                                 <tr>
-                                    <td class="star">☆☆☆☆☆</td>
-                                    <td class="nic"></td>
+                                    <td class="star">
+                                        <span>☆☆☆☆☆</span>
+                                        <span>영화좋아</span>
+                                        <span>샘형 진정해...형 영화 잘 만들었으니깐 쉬어,근데 닥스3 대본은?</span>
+                                    </td>
                                     <td class="re"></td>
                                 </tr>
                                 
