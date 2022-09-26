@@ -4,8 +4,8 @@
 **현재 프로젝트**
 
 * 로그인 및 회원가입 기능을 넣긴하였지만 많이 부족합니다. 
-* 혼자서 직접 코딩을 하여 한줄평 게시판을 추가하고 싶어서 java를 다시 공부하고 있습니다.
-* 후에 게시판 기능을 혼자서 완벽하게 코딩을 하게 되면 예매페이지를 추가해볼려고 합니다.
+* 스스로 직접 코딩을 하여 한줄평 게시판을 추가하고 싶어서 java를 다시 공부하고 있습니다.
+* 후에 게시판 기능을 스스로 완벽하게 코딩을 하게 되면 예매페이지를 추가해볼려고 합니다.
 
 **언어 및 도구**  
 <a href="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=black" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=black"/></a> 
