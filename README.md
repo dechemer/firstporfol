@@ -9,4 +9,4 @@
 
 **언어 및 도구**  
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=Android&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=black"/>
